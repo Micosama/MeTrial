@@ -4,33 +4,33 @@
         <meta charset="utf-8">
         <title>Contact Me</title>
         <link rel="stylesheet" href="contact2.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="favicon" href="customerservice.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        <div class="head">
-    <header><h1>My Contact Details</h1></header>
-    </div>
-    <div class="sidebar">
-        <p id="tt">Dream house <abbr title="Can't say it's too personal">CSITP</abbr> </p>
-           <p id="tt"> 09032652850</p>
-           <p id="tt">Wcollins312@gmail.com </p>
-           </div>
-           <div id="foot">
-           <form action="mailto:info@wcollin312@gmail.com" method="post" enctype="text/plain">
-               <label>Your Name:</label>
-               <input type="text" name="Name"/> <br>
-               <label>Your Email:</label>
-               <input type="email" name="email" /><br>
-               <label>Your Message:</label>
-               <textarea name="Message" id=Message rows="10" cols="30"></textarea><br>
-               <label for="date">Date Of Birth:</label>
-               <input type="datetime-local" name="D.O.B" id="" value="" />
-               <input type="submit" name="submit" />
-           </form>
-           <a href="index.html"><i>HOME</i></a>
-           </div>
+        <h1>Let's get in touch.</h1>
+        <p class="intro">Thanks for stopping by! if you'd like to discuss a project, feel free to reach out</p>
+        <form action="post" id="contactform">
+            <div class="fill1">
+       <ul class="display">
+			<li id="1st"><img src="call.png" alt="phone" id="em">Phone: +123 456 244 356</li>
+			<li id="2nd"><img src="email.png.png" alt="mail" id="em">Email: wcollin312@gmail.com</li><br>
+			<li id="3rd"><img src="house address.png" alt="houseaddress" id="am">Address: 123 Html St, Css County, localhost 3000</li>
+		</ul>
+        </div>
+
+        <div class="fill2">
+            <input type="text" id="inp" placeholder="NAME">
+            <input type="text" id="inp" placeholder="E-mail"><br>
+              <input type="text"  id="inp" placeholder="subject">
+              <input type="text"  id="inp" placeholder="message">
+        </div>
+       <div id="but"><button>Send message</button></div>
+
+        </form>
     </body>
 </html>
