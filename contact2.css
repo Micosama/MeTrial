@@ -7,10 +7,7 @@ body {
  background-color: lavender;
  max-width: fit-content;
 }
-.display
-{
-    margin: 50px;
-}
+
 .fill2 
 {
     margin: 50px;
@@ -80,4 +77,5 @@ button {
 #am {
     max-width: 10%;
     padding: 17px;
+
 }
